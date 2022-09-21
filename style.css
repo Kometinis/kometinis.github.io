@@ -1,0 +1,25 @@
+.board {
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: auto;
+}
+.board div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+.color {
+    background-color: red;
+}
+.color2 {
+    background-color: blue;
+}
+.center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
