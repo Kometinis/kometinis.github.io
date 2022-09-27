@@ -1,6 +1,7 @@
+function resetGame() {
+    window.location.reload(false);
+};
 function start() {
-    if (document.getElementById("1").className === "color" && document.getElementById("2").className === "color" && document.getElementById("3").className === "color") {
-        console.log("p1 Wins!!!");}
     let lastColor = "color2";
     var el  = document.getElementById("1");
     if (el) {
